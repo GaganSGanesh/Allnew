@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+  <test thread-count="5" parallel="tests" name="Testrunner">
+<parameter name="Browser" value="firefox"></parameter>
+    <classes>
+      <class name="com.facebook.automate.Autosignup"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
